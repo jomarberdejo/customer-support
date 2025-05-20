@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JeriBot | Tacloban Support Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero__content">
+        <h1>Welcome to JeriBot</h1>
+        <p>Your AI-Powered Customer Support Assistant in Tacloban City.</p>
+        <a href="#features" class="btn">Explore Features</a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <h2>What JeriBot Can Help You With</h2>
+      <div class="features__grid">
+        <div class="feature__card">
+          <h3>💬 General Questions</h3>
+          <p>
+            Ask anything — opening hours, location, contact details, and more.
+          </p>
+        </div>
+        <div class="feature__card">
+          <h3>📦 Orders & Tracking</h3>
+          <p>
+            Track your order, check delivery time, and view return policies.
+          </p>
+        </div>
+        <div class="feature__card">
+          <h3>🛍 Products & Pricing</h3>
+          <p>Discover what we sell, current prices, and promotional offers.</p>
+        </div>
+        <div class="feature__card">
+          <h3>🕓 Store Info</h3>
+          <p>
+            Get information on store hours, accepted payments, and directions.
+          </p>
+        </div>
+        <div class="feature__card">
+          <h3>😄 Lighten the Mood</h3>
+          <p>Ask JeriBot to tell you a joke or share something fun!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 Jerico's Customer Support Bot. Powered by JeriBot.</p>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbox">
+      <div class="chatbox__support">
+        <div class="chatbox__header">
+          <div class="chatbox__image--header">
+            <img
+              src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png"
+              alt="User Icon"
+            />
+          </div>
+          <div class="chatbox__content--header">
+            <h4 class="chatbox__heading--header">Jerico Support</h4>
+            <p class="chatbox__description--header">
+              Hi! I’m JeriBot. How can I assist you today?
+            </p>
+          </div>
+        </div>
+        <div class="chatbox__messages"><div></div></div>
+        <div class="chatbox__footer">
+          <input type="text" placeholder="Write a message..." />
+          <button class="chatbox__send--footer send__button">Send</button>
+        </div>
+      </div>
+      <div class="chatbox__button">
+        <button><img src="./images/chatbox-icon.svg" alt="Chat Icon" /></button>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -5,10 +5,14 @@
       "patterns": [
         "Hi",
         "Hey",
+        "Hello",
         "How are you",
         "Is anyone there?",
-        "Hello",
-        "Good day"
+        "Good day",
+        "Hi there",
+        "Hey there",
+        "Yo",
+        "What's up"
       ],
       "responses": [
         "Hey :-)",
@@ -19,7 +23,13 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later",
+        "Talk to you soon"
+      ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -28,19 +38,135 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "Thank's a lot!",
+        "Much appreciated",
+        "Appreciate it"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're welcome!"
+      ]
     },
     {
       "tag": "items",
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "Do you sell food?",
+        "Do you sell drinks?",
+        "Show me your products",
+        "Menu please",
+        "What can I buy here?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We sell coffee, tea, snacks, and baked goods.",
+        "We have hot and iced drinks, pastries, and more. Let us know what you’re looking for!"
+      ]
+    },
+    {
+      "tag": "product_price",
+      "patterns": [
+        "How much is a coffee?",
+        "What’s the price of tea?",
+        "How much do your drinks cost?",
+        "Price list please",
+        "Can you give me the prices?",
+        "What's the cost of a latte?",
+        "How much is a cappuccino?",
+        "Is your coffee expensive?"
+      ],
+      "responses": [
+        "Coffee starts at ₱120, tea at ₱100, and specialty drinks vary.",
+        "Prices range from ₱100 to ₱250 depending on the item. Ask us for the menu!"
+      ]
+    },
+    {
+      "tag": "promotions",
+      "patterns": [
+        "Are there any discounts?",
+        "Do you have promotions?",
+        "What's on sale?",
+        "Any special offers?",
+        "Do you offer deals?",
+        "Any freebies today?",
+        "Promo today?"
+      ],
+      "responses": [
+        "Yes! We have 10% off on all drinks every Monday.",
+        "Check out our daily deals on our website or in-store!",
+        "We frequently offer special promotions. Follow us on social media to stay updated!"
+      ]
+    },
+    {
+      "tag": "order_tracking",
+      "patterns": [
+        "Can I track my order?",
+        "Where is my order?",
+        "Order status",
+        "Track my delivery",
+        "I want to check my order",
+        "Order update",
+        "Delivery tracking"
+      ],
+      "responses": [
+        "Please enter your order number to check the status.",
+        "You can track your order via the tracking link sent to your email."
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "What is your return policy?",
+        "Can I return an item?",
+        "How do I return a product?",
+        "Return instructions",
+        "Item return",
+        "I want to return something"
+      ],
+      "responses": [
+        "You can return items within 7 days with a receipt.",
+        "Please bring your item and receipt to the store or contact support for help."
+      ]
+    },
+    {
+      "tag": "store_hours",
+      "patterns": [
+        "What are your store hours?",
+        "When are you open?",
+        "Opening hours",
+        "What time do you close?",
+        "Are you open now?",
+        "Store schedule",
+        "Store opening time"
+      ],
+      "responses": [
+        "We are open from 8am to 8pm, Monday to Saturday.",
+        "Our hours are 8:00 to 20:00, closed on Sundays."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is your store?",
+        "What’s your address?",
+        "Where are you located?",
+        "Store location?",
+        "Can you tell me where your shop is?",
+        "Where can I find you?",
+        "Your location please"
+      ],
+      "responses": [
+        "We are located in Tacloban City, along Real Street near the Robinsons Place Mall.",
+        "Visit our shop in Tacloban City, close to downtown and easily accessible.",
+        "You can find us in Tacloban City — Real Street, near Robinsons Place. Check us out on Google Maps!"
       ]
     },
     {
@@ -49,11 +175,14 @@
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Are you cash only?",
+        "Payment options",
+        "How can I pay?",
+        "Do you accept GCash?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We accept VISA, Mastercard, GCash, and PayPal.",
+        "We accept most major credit cards and digital payments."
       ]
     },
     {
@@ -61,11 +190,14 @@
       "patterns": [
         "How long does delivery take?",
         "How long does shipping take?",
-        "When do I get my delivery?"
+        "When do I get my delivery?",
+        "Delivery ETA",
+        "Shipping time",
+        "When will my order arrive?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Delivery takes 2-4 business days within Tacloban and nearby areas.",
+        "Shipping usually takes 2 to 4 days. Local delivery may be faster."
       ]
     },
     {
@@ -73,11 +205,36 @@
       "patterns": [
         "Tell me a joke!",
         "Tell me something funny!",
-        "Do you know a joke?"
+        "Do you know a joke?",
+        "Make me laugh",
+        "Say something funny"
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't scientists trust atoms? Because they make up everything!"
+      ]
+    },
+    {
+      "tag": "general_questions",
+      "patterns": [
+        "What is your business?",
+        "What do you do?",
+        "Who are you?",
+        "Tell me about your shop",
+        "Can you help me?",
+        "I have a question",
+        "I need some info",
+        "Help me",
+        "Are you a cafe?",
+        "Is this a coffee shop?",
+        "What is this place?",
+        "Can you assist me?"
+      ],
+      "responses": [
+        "We're a cozy cafe in Tacloban City offering quality coffee, tea, snacks, and great service!",
+        "Yes, we are a local coffee shop where you can enjoy drinks, pastries, and friendly vibes.",
+        "Ask me anything I will do my best to help you!"
       ]
     }
   ]
